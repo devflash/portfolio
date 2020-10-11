@@ -9,7 +9,6 @@ export default ({ children }) => {
             <Global styles={GlobalStyles} />
             <Navigation />
             {children}
-            <h1>Footer</h1>
         </>
     )
 };

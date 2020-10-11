@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 import { css } from "@emotion/core"
 
 const navLinks = css`
-    height: 50px;
+    height: 100px;
     background-color: #2c3e50;
     ul{
         height: 100%;
