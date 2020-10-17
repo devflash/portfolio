@@ -5,6 +5,7 @@ import Img from "gatsby-image"
 import { HiLocationMarker } from 'react-icons/hi';
 import { FaBirthdayCake, FaPhoneAlt } from 'react-icons/fa';
 import { MdEmail } from 'react-icons/md';
+import Social from './social';
 
 const heroContainer = css`
     width: 100%;
@@ -100,6 +101,7 @@ export default () => {
                             <span>Mumbai</span>
                         </div>
                     </div>
+                    <Social />
                 </div>
             </div>
         </div>
