@@ -10,10 +10,11 @@ import Social from './social';
 const heroContainer = css`
     width: 100%;
     height: calc(100vh - 100px);
-    background-color: #2ecc71;
     padding-top: 50px;
+    background-image: linear-gradient(to right, #2ecc71, rgba(255,0,0,0));
     @media screen and (max-width: 768px){
         background-color: #fff; 
+        height: 100%;
     }
 `;
 const heroSubContainer = css`
@@ -25,6 +26,7 @@ const heroSubContainer = css`
     padding: 20px;
     display: flex;
     justify-content: space-between;
+    box-shadow: 5px 5px 10px -2px #bdc3c7;
     @media screen and (max-width: 768px){
         flex-direction: column;
         width: 100%;
