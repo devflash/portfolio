@@ -13,4 +13,27 @@ export const socialLinks = [{
     id: "instagram",
     link: "/",
     icon: <FaInstagram />
-}]
+}];
+
+export const navigationLinks = [
+    {
+        link: "/",
+        text: "about"
+    },
+    {
+        link: "/",
+        text: "experience"
+    },
+    {
+        link: "/",
+        text: "education"
+    },
+    {
+        link: "/",
+        text: "project"
+    },
+    {
+        link: "/",
+        text: "blog"
+    },
+];
